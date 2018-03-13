@@ -39,3 +39,5 @@ function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop(array.legnth)
   return array
 }
+
+
