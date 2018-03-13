@@ -7,6 +7,5 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  array1 = array.unshift
-return array1
+  array = [element, ...array]
 }
